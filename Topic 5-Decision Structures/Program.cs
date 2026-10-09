@@ -112,6 +112,23 @@ namespace Topic_5_Decision_Structures
                 //Error message and handling
             }
 
+            //  ** Decision Structures Exercises **
+
+            int personOne = 30;
+            int personTwo = 25;
+            int personThree = 25;
+
+            if (personOne > personTwo)
+            {
+                Console.WriteLine("Person One is older than Person Two");
+            }
+
+            if (personOne > personThree)
+            {
+                Console.WriteLine("Person Three is younger than Person One");
+            }
+
+            
 
 
         }
