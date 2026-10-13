@@ -102,17 +102,19 @@ namespace Topic_5_Decision_Structures
             //  ! NOT
 
 
-      //    if (Int32.TryParse(someString, out min))
+            //    if (Int32.TryParse(someString, out min))
             {
                 //Code here for valid input, additional error checking may occur
                 //here as well
             }
-     //     else
+            //     else
             {
                 //Error message and handling
             }
 
             //  ** Decision Structures Exercises **
+
+            //*EASY*
 
             int personOne = 30;
             int personTwo = 25;
@@ -128,9 +130,63 @@ namespace Topic_5_Decision_Structures
                 Console.WriteLine("Person Three is younger than Person One");
             }
 
-            
+            if (personTwo == personThree)
+            {
+                Console.WriteLine("Person Two and Person Three are the same age");
+
+            }
+
+            //*MEDIUM*
+
+            if (personTwo < personOne && personTwo < personThree)
+            {
+                Console.WriteLine("Person Two is younger than Person One and Person Three");
+            }
+
+            if (personOne > personTwo && personOne > personThree)
+            {
+                Console.WriteLine("Person One is older than Person Two and Person Three");
+            }
+
+            //*HARDER MEDIUM*
+
+            if (personTwo == personOne && personThree != personOne)
+            {
+                Console.WriteLine("Person Two is the same age as Person One, but Person Three is not");
+
+            }
+
+            if (personOne != personTwo && personOne != personThree)
+            {
+                Console.WriteLine("Person One is not the same age as Person Two or Person Three");
+            }
+
+
+            if (personOne == personTwo && personOne == personThree)
+            {
+                Console.WriteLine("All three people are the same age");
+            }
+
+
+            if (personOne != personTwo && personOne != personThree && personTwo != personThree)
+            {
+                Console.WriteLine("Nobody is the same page!");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
-    }
-}
+}   }  
